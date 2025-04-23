@@ -119,3 +119,37 @@ form button {
   height: 100px;
   object-fit: cover;
 }
+.dashboard-section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.stats-box, .upload-box, .preview-box {
+  background-color: #2f2f44;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: left;
+  color: #fff;
+}
+
+.upload-box input, .upload-box textarea, .upload-box button {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.upload-box button {
+  background-color: #ffe066;
+  color: #1e1e2f;
+  font-weight: bold;
+  cursor: pointer;
+}
